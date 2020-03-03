@@ -1,15 +1,15 @@
-package com.grindr.android.framerate.ui.gif
+package com.grindr.android.framerate.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.grindr.android.framerate.R
+import com.grindr.android.framerate.ui.MyBaseFragment
 import kotlinx.android.synthetic.main.fragment_home.*
 
-class GifSampleFragment : Fragment() {
+class GifSampleFragment : MyBaseFragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
