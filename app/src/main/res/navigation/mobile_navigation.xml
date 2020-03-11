@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_lottie">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.grindr.android.framerate.ui.fragments.GifSampleFragment"
+        android:id="@+id/navigation_lottie"
+        android:name="com.grindr.android.framerate.ui.fragments.LottieSampleFragment"
         android:label="@string/title_lottie"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.grindr.android.framerate.ui.fragments.LottieSampleFragment"
+        android:id="@+id/navigation_gif"
+        android:name="com.grindr.android.framerate.ui.fragments.GifSampleFragment"
         android:label="@string/title_gif"
         tools:layout="@layout/fragment_lottie" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_view"
         android:name="com.grindr.android.framerate.ui.fragments.ViewAnimFragment"
         android:label="@string/title_views"
         tools:layout="@layout/fragment_notifications" />
